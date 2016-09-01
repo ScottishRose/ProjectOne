@@ -1,0 +1,13 @@
+body {
+  background-image: url("https://www.oceanfdn.org/sites/default/files/worldocean1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+h1 {
+  font-size: 65px;
+  text-align: center;
+  font-family: 'VT323', monospace;
+  color: cornflowerblue;
+}

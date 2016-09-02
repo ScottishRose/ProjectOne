@@ -5,9 +5,45 @@ body {
   width: 100%;
 }
 
+#title {
+  width: 10%;
+  padding: 5px 250px;
+  /*border: 3px solid sienna;*/
+
+}
+
 h1 {
-  font-size: 65px;
+  font-size: 75px;
   text-align: center;
   font-family: 'VT323', monospace;
   color: cornflowerblue;
+}
+
+.gameboard {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  padding: 50px;
+  /*box-sizing: border-box;
+  display: grid | inline;*/
+  border: 3px solid sienna;
+}
+.gameboard div {
+  /*position: absolute;*/
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 1px solid sienna;
+}
+
+.row {
+  margin: 0 -10px;
+  margin-bottom: 20px;
+}
+.row:last-child {
+  margin-bottom: 0;
+}
+[class*="col-"] {
+  padding: 20px;
 }

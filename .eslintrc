@@ -1,6 +1,4 @@
-{
 "extends": "airbnb"
-"env" : {
+"env": {
   "browser": true
   }
-}
